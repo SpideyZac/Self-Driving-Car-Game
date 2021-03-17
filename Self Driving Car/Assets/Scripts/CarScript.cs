@@ -23,6 +23,8 @@ public class CarScript : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other) {
         if (other.gameObject.tag == "wall") {
             transform.position = spawnPosition.position;
+            transform.rotation = Quaternion.Euler(0, 0, 90);
+            Debug.Log("Player Car Died!");
         }
     }
 }
