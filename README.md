@@ -21,4 +21,7 @@ object to where you want the car to respawn at.
 The Win prefab located in the sprites folder is the marker of the end of the course. If it is touched it will send the car back to the spawn. This game object
 is not detectable by ray casts.
 
+If you are not sure what you are allowed to do with this code, please check the LICENSE file.
+If you need help, please report your issue in the Issues section.
+
 Have fun imbeting AI into this game! :)
